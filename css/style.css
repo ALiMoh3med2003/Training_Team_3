@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#1A1919;
+
+  }
+  :root {
+    --primary:#BF9B30;
+    --Green:#34A853;
+    --Red:#1A1919;
+    --Grey:#D0D0D0;
+    --Black:#000000;
+    --white:#fff;
+    --overlay-bage :#1a1919f1;
+    --bg-cards:#00000040;
+    --hover:#dbb338;
+    --background-input: #ffffff1e ;
+  }
+.box{
+    width: 94%;
+    height:400px 
+}
+.container{
+    float: right;    
+    width: 70%;
+    height:350px ;
+}
+.title{
+    margin:2% 3%;
+    color: #fff;
+}
+#drop-container{
+    background-color:#1A1919;
+    margin: 0 3%;
+    border: dashed 3px #dbb338;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#drop-container:active{
+    border: solid 3px #dbb338;
+    cursor: pointer;
+}
+.icon{
+    font-size: 100px;
+    color:#dbb338 ;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border: none;
+}
+#icon2{
+    display: none;
+    font-size: 100px;
+    color:#dbb338 ;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border: none;
+}
+.drag-drop h3{
+color: #fff;
+display: none;
+margin-bottom: 20px;
+font-size: 15px;
+}
+.drag-drop{
+    padding: 2%;
+}
+.drag-drop h2 {
+    color:#fff ;
+    margin-bottom:15px ;
+}
+.drag-drop input{
+    display: none;
+}
+h2 label{
+    color: #dbb338;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.drag-drop p{
+    color:#ffffff1e ;
+    font-size: 19px;
+}
+#drop-area img{
+    max-width: 250PX;
+    max-height: 200PX;
+    background-color:#1A1919;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 10PX;
+    cursor: pointer;
+}
