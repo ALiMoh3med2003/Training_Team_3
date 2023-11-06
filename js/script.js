@@ -48,7 +48,3 @@ function showFile(){
         dropArea.classList.remove("active");
     }
 }
-img.addEventListener("click", ()=>{
-    imgTag.remove
-})
-
