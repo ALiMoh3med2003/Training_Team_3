@@ -4,27 +4,25 @@ let icon = document.getElementById("icon");
 let icon2 = document.getElementById("icon2");
 let h3 =document.querySelector(".h3")
 let dropArea = document.getElementById("drop-area");
-dragText = dropArea.querySelector(".h2")
+let h2Text = document.querySelector(".h2")
 let file;
 upload.addEventListener("change", function(){
     file = this.files[0];
     showFile();
-    showFile2();
 })
 dropArea.addEventListener("dragover",(event)=>{
     event.preventDefault();
 dropArea.classList.add("active");
-dragText.textConet="Relese To Upload File";
+h2Text.textContent="Relese To Upload File or";
 })
 dropArea.addEventListener("dragleave",()=>{
     dropArea.classList.remove("active");
-dragText.textConet="Drag & drop files or Browse";
+h2Text.textContent="Drag & Drop Files or ";
 })
 dropArea.addEventListener("drop",(event)=>{
     event.preventDefault();
     file = event.dataTransfer.files[0];
     showFile();
-    showFile2();
 })
 function showFile(){
     let fileType=file.type;
@@ -50,3 +48,7 @@ function showFile(){
         dropArea.classList.remove("active");
     }
 }
+img.addEventListener("click", ()=>{
+    imgTag.remove
+})
+
